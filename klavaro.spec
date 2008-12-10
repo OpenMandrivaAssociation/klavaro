@@ -9,6 +9,7 @@ URL:		http://klavaro.sourceforge.net
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Suggests:	wget
 BuildRequires:	gtk+2-devel
+BuildRequires:	curl-devel
 
 %description
 Klavaro is just another free touch typing tutor program. We felt like to
