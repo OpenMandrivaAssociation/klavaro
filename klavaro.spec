@@ -9,6 +9,8 @@ URL:		http://klavaro.sourceforge.net
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 Suggests:	wget
 BuildRequires:	gtk+2-devel
+BuildRequires:	gtkdatabox-devel
+BuildRequires:	libsexy-devel
 BuildRequires:	curl-devel
 
 %description
