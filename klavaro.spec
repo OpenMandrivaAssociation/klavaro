@@ -39,7 +39,7 @@ Type=Application
 Exec=%_bindir/%name
 Name=Klavaro
 Comment=Touch Typing Tutor
-Icon=education_other_section
+Icon=klavaro
 Categories=Education;ComputerScience;GTK;
 EOF
 
@@ -51,4 +51,5 @@ rm -rf $RPM_BUILD_ROOT
 %{_bindir}/*
 %{_datadir}/%name
 %{_datadir}/applications/*.desktop
+%{_iconsdir}/*/*/*/*
 %{_mandir}/man1/*.1.*
