@@ -1,7 +1,7 @@
 Summary:	Touch Typing Tutor
 Name:     	klavaro
-Version:	1.3.6
-Release:	%mkrel 2
+Version:	1.4.0
+Release:	%mkrel 1
 License:	GPLv2+
 Group:		Education
 Source0: 	http://dfn.dl.sourceforge.net/sourceforge/klavaro/%name-%version.tar.bz2
