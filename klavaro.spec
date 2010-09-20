@@ -1,12 +1,12 @@
 Summary:	Touch Typing Tutor
-Name:     	klavaro
-Version:	1.7.0
+Name:		klavaro
+Version:	1.7.1
 Release:	%mkrel 1
 License:	GPLv2+
 Group:		Education
-Source0: 	http://downloads.sourceforge.net/project/klavaro/%name-%version.tar.bz2
+Source0:	http://downloads.sourceforge.net/project/klavaro/%name-%version.tar.bz2
 URL:		http://klavaro.sourceforge.net
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 Suggests:	wget
 BuildRequires:	gtk+2-devel
 BuildRequires:	gtkdatabox-devel
