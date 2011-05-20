@@ -12,7 +12,7 @@ Suggests:	wget
 BuildRequires:	gtk+2-devel
 BuildRequires:	gtkdatabox-devel
 BuildRequires:	libsexy-devel
-BuildRequires:	curl-devel
+BuildRequires:	curl-devel intltool
 
 %description
 Klavaro is just another free touch typing tutor program. We felt like to
