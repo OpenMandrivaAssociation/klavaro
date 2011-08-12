@@ -1,7 +1,7 @@
 Summary:	Touch Typing Tutor
 Name:		klavaro
 Version:	1.9.3
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	GPLv2+
 Group:		Education
 Source0:	http://downloads.sourceforge.net/project/klavaro/%name-%version.tar.bz2
@@ -34,16 +34,16 @@ rm -rf $RPM_BUILD_ROOT
 
 %{find_lang} %{name}
 
-mkdir -p %buildroot%_datadir/applications/
-cat > %buildroot%_datadir/applications/mandriva-%{name}.desktop <<EOF
-[Desktop Entry]
-Type=Application
-Exec=%_bindir/%name
-Name=Klavaro
-Comment=Touch Typing Tutor
-Icon=klavaro
-Categories=Education;ComputerScience;GTK;
-EOF
+#mkdir -p %buildroot%_datadir/applications/
+#cat > %buildroot%_datadir/applications/mandriva-%{name}.desktop <<EOF
+#[Desktop Entry]
+#Type=Application
+#Exec=%_bindir/%name
+#Name=Klavaro
+#Comment=Touch Typing Tutor
+#Icon=klavaro
+#Categories=Education;ComputerScience;GTK;
+#EOF
 
 %clean
 rm -rf $RPM_BUILD_ROOT
