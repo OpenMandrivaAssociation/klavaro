@@ -1,0 +1,1040 @@
+--- po/ru.po.old	2011-03-25 00:46:57.000000000 +0300
++++ po/ru.po	2011-05-20 22:04:08.153200401 +0400
+@@ -1,26 +1,26 @@
+ # Russian translation for the klavaro package.
+ # Copyright (C) 2006 THE klavaro'S COPYRIGHT HOLDER
+ # This file is distributed under the same license as the klavaro package.
+-# Alexander Kazancev <_kazancas_@gmail.com>, 2006 - 2008.
++# Alexander Kazancev <kazancas@mandriva.ru>, 2006 - 2011.
+ # Pavel Maryanov <acid@jack.kiev.ua>, 2010.
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: klavaro 1.7.1\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2011-03-24 18:46-0300\n"
+-"PO-Revision-Date: 2010-09-05 14:17+0200\n"
+-"Last-Translator: Pavel Maryanov <acid@jack.kiev.ua>\n"
++"PO-Revision-Date: 2011-05-20 21:31+0300\n"
++"Last-Translator: Alexander Kazancev <kazancas@mandriva.ru>\n"
+ "Language-Team: Russian <gnu@mx.ru>\n"
+ "Language: \n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\\n\n"
+ 
+-#: ../data/klavaro.desktop.in.h:1 ../data/klavaro.glade.h:75
++#: ../data/klavaro.desktop.in.h:1
++#: ../data/klavaro.glade.h:75
+ msgid "Yet another touch typing tutor"
+-msgstr "Ещё один клавиатурный тренажёр"
++msgstr "Еще один клавиатурный тренажер"
+ 
+ #: ../data/klavaro.glade.h:1
+ msgid "About 'Klavaro'"
+@@ -28,21 +28,12 @@
+ 
+ #. English typo: touchs -> touches
+ #: ../data/klavaro.glade.h:3
+-#, fuzzy
+ msgid "Accelerating the touches practicing random words exercises."
+-msgstr "Наращивайте скорость, практикуясь в наборе случайных слов"
++msgstr "Наращивайте скорость, практикуясь в наборе случайных слов."
+ 
+ #: ../data/klavaro.glade.h:4
+-msgid ""
+-"Also the controls have tips which will appear if you hover over them with "
+-"your mouse. These tips can come in very handy. To see how these tips work, "
+-"position your mouse over the button below, and without clicking, wait for "
+-"the tip to appear..."
+-msgstr ""
+-"У многих элементов управления есть всплывающие подсказки, которые могут "
+-"пригодиться на начальном этапе. Чтобы увидеть, как работает эта функция, "
+-"наведите курсор мыши на кнопку ниже и не нажимайте её, пока не появится "
+-"сообщение..."
++msgid "Also the controls have tips which will appear if you hover over them with your mouse. These tips can come in very handy. To see how these tips work, position your mouse over the button below, and without clicking, wait for the tip to appear..."
++msgstr "У многих элементов управления есть всплывающие подсказки, которые могут пригодиться на начальном этапе. Чтобы увидеть, как работает эта функция, наведите курсор мыши на кнопку ниже и не нажимайте ее, пока не появится сообщение..."
+ 
+ #: ../data/klavaro.glade.h:5
+ msgid "Apply the selected item to create an exercise."
+@@ -58,11 +49,11 @@
+ 
+ #: ../data/klavaro.glade.h:8
+ msgid "Becoming proficient practicing complete paragraphs exercises."
+-msgstr "Повышайте мастерство, практикуясь в наборе целых абзацев"
++msgstr "Повышайте мастерство, практикуясь в наборе целых абзацев."
+ 
+ #: ../data/klavaro.glade.h:9
+ msgid "Caps"
+-msgstr "CAPS"
++msgstr "Caps"
+ 
+ #: ../data/klavaro.glade.h:10
+ msgid "Change language"
+@@ -70,19 +61,19 @@
+ 
+ #: ../data/klavaro.glade.h:11
+ msgid "Charts showing the learning progress along the exercises."
+-msgstr "Диаграммы со статистикой обучения в упражнениях"
++msgstr "Диаграммы со статистикой обучения в упражнениях."
+ 
+ #: ../data/klavaro.glade.h:12
+ msgid "Clear all the progress data, for every module."
+-msgstr "Очистить данные для всех модулей"
++msgstr "Очистить данные прогресса обучения для всех модулей."
+ 
+ #: ../data/klavaro.glade.h:13
+ msgid "Close this window, returning to the exercise."
+-msgstr "Закрыть окно и вернуться к упражнению"
++msgstr "Закрыть окно и вернуться к упражнению."
+ 
+ #: ../data/klavaro.glade.h:14
+ msgid "Close this window."
+-msgstr "Закрыть это окно"
++msgstr "Закрыть это окно."
+ 
+ #: ../data/klavaro.glade.h:15
+ msgid "Co_urse information"
+@@ -94,7 +85,7 @@
+ 
+ #: ../data/klavaro.glade.h:17
+ msgid "Ctrl"
+-msgstr "CTRL"
++msgstr "Ctrl"
+ 
+ #: ../data/klavaro.glade.h:18
+ msgid "Date & Time"
+@@ -106,27 +97,28 @@
+ 
+ #: ../data/klavaro.glade.h:20
+ msgid "Don't be shy about learning the basics!"
+-msgstr "Не бойтесь начать обучение «с нуля»"
++msgstr "Не бойтесь начать обучение «с нуля»!"
+ 
+ #: ../data/klavaro.glade.h:21
+ msgid "Download from the web the most up to date ranking."
+-msgstr "Загрузить из Интернета обновлённые данные"
++msgstr "Загрузить из Интернета обновленные данные."
+ 
+-#: ../data/klavaro.glade.h:22 ../src/tutor.c:251
++#: ../data/klavaro.glade.h:22
++#: ../src/tutor.c:251
+ msgid "Drag and drop text here to practice with it."
+-msgstr "Перетащите сюда текст, чтобы попрактиковаться с ним"
++msgstr "Перетащите сюда текст, чтобы попрактиковаться с ним."
+ 
+ #: ../data/klavaro.glade.h:23
+ msgid "Edit the character set to be used in lessons 44 through 50."
+-msgstr "Редактировать набор символов для использования в уроках с 44 по 50"
++msgstr "Редактировать набор символов для использования в уроках с 44  по 50."
+ 
+ #: ../data/klavaro.glade.h:24
+ msgid "Edit the character set to be used in this lesson."
+-msgstr "Редактировать набор символов для использования в этом уроке"
++msgstr "Редактировать набор символов для использования в этом уроке."
+ 
+ #: ../data/klavaro.glade.h:25
+ msgid "Exit the application immediately."
+-msgstr "Закрыть приложение"
++msgstr "Закрыть приложение немедленно."
+ 
+ #: ../data/klavaro.glade.h:26
+ msgid "First steps with initial training"
+@@ -138,23 +130,19 @@
+ 
+ #: ../data/klavaro.glade.h:28
+ msgid "General information about the program."
+-msgstr "Общие сведения об этой программе"
++msgstr "Общие сведения об этой программе."
+ 
+ #: ../data/klavaro.glade.h:29
+ msgid "Help?"
+-msgstr "Справка"
++msgstr "Справка?"
+ 
+ #: ../data/klavaro.glade.h:30
+ msgid "Hide extra information"
+ msgstr "Скрыть доп. сведения"
+ 
+ #: ../data/klavaro.glade.h:31
+-msgid ""
+-"If you like those beautiful hands, click here to close this window keeping "
+-"them."
+-msgstr ""
+-"Если вам понравились эти руки, нажмите эту кнопку, чтобы закрыть окно и "
+-"оставить руки"
++msgid "If you like those beautiful hands, click here to close this window keeping them."
++msgstr "Если вам понравились эти руки, нажмите эту кнопку, чтобы закрыть окно и оставить руки"
+ 
+ #: ../data/klavaro.glade.h:32
+ msgid "Initial training for your fingers."
+@@ -165,12 +153,8 @@
+ msgstr "Если эта кнопка не нажата, звуки будут отключены"
+ 
+ #: ../data/klavaro.glade.h:34
+-msgid ""
+-"Keyboard layout for modules 1 and 2. Also used informatively in the "
+-"fluidness contest."
+-msgstr ""
+-"Раскладка клавиатуры для модулей 1 и 2. Используется также в обучении "
+-"плавности набора."
++msgid "Keyboard layout for modules 1 and 2. Also used informatively in the fluidness contest."
++msgstr "Раскладка клавиатуры для модулей 1 и 2. Используется также в обучении плавности набора."
+ 
+ #: ../data/klavaro.glade.h:35
+ msgid "Klavaro"
+@@ -178,15 +162,15 @@
+ 
+ #: ../data/klavaro.glade.h:36
+ msgid "Klavaro - Main menu"
+-msgstr "Klavaro: главное меню"
++msgstr "Klavaro - Главное меню"
+ 
+ #: ../data/klavaro.glade.h:37
+ msgid "Klavaro - Progress"
+-msgstr "Klavaro: статистика"
++msgstr "Klavaro - Статистика"
+ 
+ #: ../data/klavaro.glade.h:38
+ msgid "Klavaro - Select file"
+-msgstr "Klavaro: выбор файла"
++msgstr "Klavaro - Выбор файла"
+ 
+ #: ../data/klavaro.glade.h:39
+ msgid "Language for modules 3 and 4."
+@@ -214,7 +198,7 @@
+ 
+ #: ../data/klavaro.glade.h:45
+ msgid "Practice with complete texts"
+-msgstr "Практика с объёмными текстами"
++msgstr "Практика с объемными текстами"
+ 
+ #: ../data/klavaro.glade.h:46
+ msgid "Practice with random keys"
+@@ -237,12 +221,8 @@
+ msgstr "_Переименовать:"
+ 
+ #: ../data/klavaro.glade.h:51
+-msgid ""
+-"Read a text file and add a copy of it here. The file must be encoded in "
+-"UTF-8."
+-msgstr ""
+-"Прочитать текст из файла и поместить копию сюда. Файл должен быть в "
+-"кодировке UTF-8."
++msgid "Read a text file and add a copy of it here. The file must be encoded in UTF-8."
++msgstr "Прочитать текст из файла и поместить копию сюда. Файл должен быть в кодировке UTF-8."
+ 
+ #: ../data/klavaro.glade.h:52
+ msgid "Remember always: someone loves you!"
+@@ -305,18 +285,12 @@
+ msgstr "Показать виртуальную клавиатуру и связь пальцев и клавиш"
+ 
+ #: ../data/klavaro.glade.h:67
+-#, fuzzy
+ msgid "Speech"
+-msgstr "Скорость"
++msgstr "Речь"
+ 
+ #: ../data/klavaro.glade.h:68
+-msgid ""
+-"The main menu of the application is very straightforward. Just select the "
+-"type of exercise you wish to take. Do not worry about clicking any button on "
+-"the screen. The buttons will never hurt you!"
+-msgstr ""
+-"Главное меню приложения очень простое. Просто выберите в нём нужный тип "
+-"упражнения. Не бойтесь нажимать кнопки — ничего страшного не произойдёт."
++msgid "The main menu of the application is very straightforward. Just select the type of exercise you wish to take. Do not worry about clicking any button on the screen. The buttons will never hurt you!"
++msgstr "Главное меню приложения очень простое. Просто выберите в нем нужный тип упражнения. Не бойтесь нажимать кнопки — ничего страшного не произойдет."
+ 
+ #: ../data/klavaro.glade.h:69
+ msgid "This is a specific exercise, adjusted to your error profile."
+@@ -324,17 +298,11 @@
+ 
+ #: ../data/klavaro.glade.h:70
+ msgid "This is a tip. Now you press this button to return to the main menu."
+-msgstr ""
+-"Это всплывающая подсказка. Теперь нажмите эту клавишу для возврата в главное "
+-"меню."
++msgstr "Это всплывающая подсказка. Теперь нажмите эту клавишу для возврата в главное меню."
+ 
+ #: ../data/klavaro.glade.h:71
+-msgid ""
+-"Toggles the shift effect on the keys. Alternates between the upper and lower "
+-"characters of the keys."
+-msgstr ""
+-"Нажатие клавиши SHIFT переключает ввод между верхними и нижними символами "
+-"клавиш"
++msgid "Toggles the shift effect on the keys. Alternates between the upper and lower characters of the keys."
++msgstr "Нажатие клавиши SHIFT переключает ввод между верхними и нижними символами клавиш"
+ 
+ #: ../data/klavaro.glade.h:72
+ msgid "Top 10"
+@@ -350,7 +318,7 @@
+ 
+ #: ../data/klavaro.glade.h:76
+ msgid "Your language here."
+-msgstr "Выберите свой язык"
++msgstr "Выберите свой язык."
+ 
+ #: ../data/klavaro.glade.h:77
+ msgid "_About..."
+@@ -402,7 +370,7 @@
+ 
+ #: ../data/klavaro.glade.h:89
+ msgid "_Next step"
+-msgstr "_Вперёд"
++msgstr "_Вперед"
+ 
+ #: ../data/klavaro.glade.h:90
+ msgid "_No"
+@@ -464,7 +432,8 @@
+ msgid "_Yes"
+ msgstr "_Да"
+ 
+-#: ../data/klavaro.glade.h:105 ../src/keyboard.c:1575
++#: ../data/klavaro.glade.h:105
++#: ../src/keyboard.c:1575
+ msgid "thumbs"
+ msgstr "большие пальцы"
+ 
+@@ -484,39 +453,47 @@
+ #, c-format
+ msgid "Dictation mode (depends on this speech synthesizer: %s)"
+ msgid_plural "Dictation mode (depends on one of these speech synthesizers: %s)"
+-msgstr[0] ""
+-msgstr[1] ""
+-msgstr[2] ""
++msgstr[0] "Режим диктовки (зависит от этого синтезатора речи: %s)"
++msgstr[1] "Режим диктовки (зависит от этих синтезаторов речи: %s)"
+ 
+ #. Set main labels (for translation)
+ #.
+-#: ../src/main.c:436 ../src/keyboard.c:1229
++#: ../src/main.c:436
++#: ../src/keyboard.c:1229
+ msgid "Introduction"
+ msgstr "Введение"
+ 
+-#: ../src/main.c:439 ../src/top10.c:109
++#: ../src/main.c:439
++#: ../src/top10.c:109
+ msgid "Basic course"
+ msgstr "Начальный курс"
+ 
+-#: ../src/main.c:442 ../src/top10.c:112
++#: ../src/main.c:442
++#: ../src/top10.c:112
+ msgid "Adaptability"
+ msgstr "Адаптивность"
+ 
+-#: ../src/main.c:445 ../src/callbacks.c:1228 ../src/top10.c:89
++#: ../src/main.c:445
++#: ../src/callbacks.c:1228
++#: ../src/top10.c:89
+ #: ../src/top10.c:115
+ msgid "Speed"
+ msgstr "Скорость"
+ 
+-#: ../src/main.c:448 ../src/callbacks.c:1241 ../src/top10.c:91
++#: ../src/main.c:448
++#: ../src/callbacks.c:1241
++#: ../src/top10.c:91
+ #: ../src/top10.c:118
+ msgid "Fluidity"
+ msgstr "Плавность"
+ 
+-#: ../src/callbacks.c:381 ../src/tutor.c:387
++#: ../src/callbacks.c:381
++#: ../src/tutor.c:387
+ msgid "Keys:"
+ msgstr "Клавиши:"
+ 
+-#: ../src/callbacks.c:771 ../src/callbacks.c:787
++#: ../src/callbacks.c:771
++#: ../src/callbacks.c:787
+ msgid "Connecting..."
+ msgstr "Подключение..."
+ 
+@@ -544,11 +521,13 @@
+ msgid "This will DELETE all the progress data shown in the charts."
+ msgstr "При этом все данные, показанные на диаграммах, будут УНИЧТОЖЕНЫ"
+ 
+-#: ../src/callbacks.c:1225 ../src/top10.c:87
++#: ../src/callbacks.c:1225
++#: ../src/top10.c:87
+ msgid "Accuracy"
+ msgstr "Точность"
+ 
+-#: ../src/callbacks.c:1228 ../src/tutor.c:1099
++#: ../src/callbacks.c:1228
++#: ../src/tutor.c:1099
+ msgid "(WPM)"
+ msgstr "(слов/мин)"
+ 
+@@ -556,232 +535,108 @@
+ msgid "Errors"
+ msgstr "Ошибки"
+ 
+-#: ../src/callbacks.c:1244 ../src/tutor.c:1126 ../src/top10.c:69
++#: ../src/callbacks.c:1244
++#: ../src/tutor.c:1126
++#: ../src/top10.c:69
+ msgid "Score"
+ msgstr "Очки"
+ 
+ #. Translators: your language code (first 2 letters of your po-file)
+-#: ../src/translation.c:423 ../src/translation.c:489 ../src/tutor.c:1536
++#: ../src/translation.c:423
++#: ../src/translation.c:489
++#: ../src/tutor.c:1536
+ msgid "en"
+ msgstr "ru"
+ 
+ #: ../src/translation.c:576
+-msgid ""
+-"The basic course focuses on having you read the characters presented to you "
+-"on screen and typing the corresponding keys. Remember to keep your hands "
+-"correctly oriented on the home row of the keyboard at all times (see "
+-"introduction on main menu)."
+-msgstr ""
+-"В начальном курс нужно читать символы, которые появляются в этом окне, и "
+-"нажмать соответствующие клавиши. Не забывайте правильно держать руки на "
+-"внутреннем ряду клавиатуры (см. введение в главном меню)."
++msgid "The basic course focuses on having you read the characters presented to you on screen and typing the corresponding keys. Remember to keep your hands correctly oriented on the home row of the keyboard at all times (see introduction on main menu)."
++msgstr "В начальном курс нужно читать символы, которые появляются в этом окне, и нажмать соответствующие клавиши. Не забывайте правильно держать руки на внутреннем ряду клавиатуры (см. введение в главном меню)."
+ 
+ #: ../src/translation.c:580
+-msgid ""
+-"The key set used in each series will be shown in the above message line. The "
+-"[Space], [Shift] and [Enter] keys may not show up there but are used very "
+-"often."
+-msgstr ""
+-"В верхней строке будет отображаться набор клавиш, используемых в каждом "
+-"сеансе. Клавиши [ПРОБЕЛ], [SHIFT] и [ВВОД] могут не отображаться в этой "
+-"строке, поскольку они используются очень часто."
++msgid "The key set used in each series will be shown in the above message line. The [Space], [Shift] and [Enter] keys may not show up there but are used very often."
++msgstr "В верхней строке будет отображаться набор клавиш, используемых в каждом сеансе. Клавиши [ПРОБЕЛ], [SHIFT] и [ВВОД] могут не отображаться в этой строке, поскольку они используются очень часто."
+ 
+ #: ../src/translation.c:583
+-msgid ""
+-"The message line below follows and echoes your key presses. If required, it "
+-"changes and displays instructions for actions required from you."
+-msgstr ""
+-"В строке снизу отображаются нажатые клавиши. При необходимости содержимое "
+-"строки будет изменяться, показывая инструкции, которых вам следует "
+-"придерживаться."
++msgid "The message line below follows and echoes your key presses. If required, it changes and displays instructions for actions required from you."
++msgstr "В строке снизу отображаются нажатые клавиши. При необходимости содержимое строки будет изменяться, показывая инструкции, которых вам следует придерживаться."
+ 
+ #: ../src/translation.c:587
+-msgid ""
+-"Here you may practice and improve your memorization of all keys. There will "
+-"be sentences presented with nonsense words which mix some numbers and "
+-"symbols."
+-msgstr ""
+-"Здесь можно попрактиковаться, чтобы лучше запомнить расположение всех "
+-"клавиш. В упражнении будут представлены предложения из бессмысленных слов, "
+-"представляющих собой смесь из букв и цифр."
++msgid "Here you may practice and improve your memorization of all keys. There will be sentences presented with nonsense words which mix some numbers and symbols."
++msgstr "Здесь можно попрактиковаться, чтобы лучше запомнить расположение всех клавиш. В упражнении будут представлены предложения из бессмысленных слов, представляющих собой смесь из букв и цифр."
+ 
+ #: ../src/translation.c:590
+-msgid ""
+-"In order to keep the lesson contents language and keyboard independent, "
+-"accented letter combinations will probably not appear. For real word "
+-"sentences, please use the fourth option of the main menu (about fluidness)."
+-msgstr ""
+-"Чтобы сохранить независимость между содержимым упражнения и клавиатурой, "
+-"комбинации символов со смыслом скорее всего не будут появляться. Для набора "
+-"предложений из реальных слов используйте четвертый пункт главного меню "
+-"(плавность)."
++msgid "In order to keep the lesson contents language and keyboard independent, accented letter combinations will probably not appear. For real word sentences, please use the fourth option of the main menu (about fluidness)."
++msgstr "Чтобы сохранить независимость между содержимым упражнения и клавиатурой, комбинации символов со смыслом скорее всего не будут появляться. Для набора предложений из реальных слов используйте четвертый пункт главного меню (плавность)."
+ 
+ #: ../src/translation.c:594
+-msgid ""
+-"After each exercise there will be a brief statistics panel reviewing your "
+-"performance along with some relevant comments."
+-msgstr ""
+-"В конце каждого упражнения будет показана краткая статистика относительно "
+-"вашей производительности с соответствующими комментариями."
++msgid "After each exercise there will be a brief statistics panel reviewing your performance along with some relevant comments."
++msgstr "В конце каждого упражнения будет показана краткая статистика относительно вашей производительности с соответствующими комментариями."
+ 
+ #: ../src/translation.c:598
+-msgid ""
+-"This exercise is very similar to the second one, for adaptability. The "
+-"difference is that here you'll type real words."
+-msgstr ""
+-"Это упражнение очень похоже на второе (адаптация). Разница заключается в "
+-"том, что здесь вы будете набирать реальные слова."
++msgid "This exercise is very similar to the second one, for adaptability. The difference is that here you'll type real words."
++msgstr "Это упражнение очень похоже на второе (адаптация). Разница заключается в том, что здесь вы будете набирать реальные слова."
+ 
+ #: ../src/translation.c:601
+-msgid ""
+-"The default language is the actual one of the interface. But you may select "
+-"any other texts with words you would like to use. Press the 'Other' option "
+-"above and add files containing those texts."
+-msgstr ""
+-"Языком по умолчанию является язык интерфейса. Однако можно выбрать любой "
+-"другой текст с интересующими вас словами. Нажмите кнопку «Другой текст» "
+-"вверху и добавьте файлы с нужным текстом."
++msgid "The default language is the actual one of the interface. But you may select any other texts with words you would like to use. Press the 'Other' option above and add files containing those texts."
++msgstr "Языком по умолчанию является язык интерфейса. Однако можно выбрать любой другой текст с интересующими вас словами. Нажмите кнопку «Другой текст» вверху и добавьте файлы с нужным текстом."
+ 
+ #: ../src/translation.c:605
+-msgid ""
+-"With this exercise the focus is on speed. So, you are supposed to type "
+-"really fast and I will only flatter you when you deserve it!"
+-msgstr ""
+-"В этом упражнении упор делается на скорость. Поэтому, чтобы заслужить "
+-"похвалу, текст нужно набирать как можно быстрее."
++msgid "With this exercise the focus is on speed. So, you are supposed to type really fast and I will only flatter you when you deserve it!"
++msgstr "В этом упражнении упор делается на скорость. Поэтому, чтобы заслужить похвалу, текст нужно набирать как можно быстрее."
+ 
+ #: ../src/translation.c:609
+-msgid ""
+-"We will now use complete sentences and paragraphs which make logical sense. "
+-"This may distract you while you type if you try to understand what you are "
+-"entering. The previous exercises were aimed at getting you to type without "
+-"interpreting and analyzing the content."
+-msgstr ""
+-"Теперь будут использоваться полные предложения и абзацы, которые логически "
+-"связаны между собой. Если вы будете пытаться понять этот текст, это может "
+-"отвлекать вас во время набора. В предыдущих упражнениях упор делался на "
+-"набор текста без интерпретации и анализа его содержания."
++msgid "We will now use complete sentences and paragraphs which make logical sense. This may distract you while you type if you try to understand what you are entering. The previous exercises were aimed at getting you to type without interpreting and analyzing the content."
++msgstr "Теперь будут использоваться полные предложения и абзацы, которые логически связаны между собой. Если вы будете пытаться понять этот текст, это может отвлекать вас во время набора. В предыдущих упражнениях упор делался на набор текста без интерпретации и анализа его содержания."
+ 
+ #: ../src/translation.c:613
+-msgid ""
+-"We do not mean to imply that the typists must behave like a robot, without "
+-"understanding what they type. We do aim to develop the skill of typing, "
+-"making it an automatic reflex akin to the acts of walking, talking, etc. "
+-"After reaching this goal, the act of typing will become automatic and "
+-"require little concentration. Then you will be able to pay attention to the "
+-"real meaning of the text."
+-msgstr ""
+-"Это не означает, что печатающий должен вести себя как робот, не понимая "
+-"смысла вводимого текста. Целью данной программы является развитие навыков "
+-"набора текста на уровне рефлексов, такх как, например, ходьба, речь и т. п. "
+-"После достижения этой цели набор текста будет выполняться автоматически с "
+-"минимальной концентрацией. Тогда вы сможете обратить внимание на реальный "
+-"смысл текста."
++msgid "We do not mean to imply that the typists must behave like a robot, without understanding what they type. We do aim to develop the skill of typing, making it an automatic reflex akin to the acts of walking, talking, etc. After reaching this goal, the act of typing will become automatic and require little concentration. Then you will be able to pay attention to the real meaning of the text."
++msgstr "Это не означает, что печатающий должен вести себя как робот, не понимая смысла вводимого текста. Целью данной программы является развитие навыков набора текста на уровне рефлексов, такх как, например, ходьба, речь и т. п. После достижения этой цели набор текста будет выполняться автоматически с минимальной концентрацией. Тогда вы сможете обратить внимание на реальный смысл текста."
+ 
+ #. English typo: minimun -> minimum
+ #: ../src/translation.c:618
+-#, fuzzy
+-msgid ""
+-"These exercises are longer. Each exercise consists of three paragraphs and "
+-"the emphasis is placed on correctness and rhythm, with a minimum speed "
+-"requirement. Here you will be required to use the backspace key to correct "
+-"any mistakes. In other words, only input without error will be accepted."
+-msgstr ""
+-"Эти упражнения являются более долгими. Каждое из них состоит с трех абзацев "
+-"и особое внимание уделяется точности и ритму с минимальным требованием к "
+-"скорости. Здесь необходимо будет исправлять ошибки с помощью клавиши "
+-"[BACKSPACE]. Иными словами, защитываться будет только текст без ошибок."
++msgid "These exercises are longer. Each exercise consists of three paragraphs and the emphasis is placed on correctness and rhythm, with a minimum speed requirement. Here you will be required to use the backspace key to correct any mistakes. In other words, only input without error will be accepted."
++msgstr "Эти упражнения являются более долгими. Каждое из них состоит с трех абзацев и особое внимание уделяется точности и ритму с минимальным требованием к скорости. Здесь необходимо будет исправлять ошибки с помощью клавиши BACKSPACE. Иными словами, засчитываться будет только текст без ошибок."
+ 
+ #. English typo: recomendations -> recommendations
+ #: ../src/keyboard.c:1052
+-#, fuzzy
+-msgid ""
+-"Correct positioning of the hands and fingers is very important to efficient "
+-"typing. You will learn faster and type better if you follow the next "
+-"recommendations."
+-msgstr ""
+-"Правильное расположение рук и пальцев очень важно для эффективной печати. Вы "
+-"научитесь печатать быстрее и точнее, если будете придерживаться следующих "
+-"рекомендаций."
++msgid "Correct positioning of the hands and fingers is very important to efficient typing. You will learn faster and type better if you follow the next recommendations."
++msgstr "Правильное расположение рук и пальцев очень важно для эффективной печати. Вы научитесь печатать быстрее и точнее, если будете придерживаться следующих рекомендаций."
+ 
+ #: ../src/keyboard.c:1055
+-msgid ""
+-"The index-finger tips rest over each of the two keys which have a small "
+-"raised mark, in the center of the keyboard."
+-msgstr ""
+-"Указательные пальцы должны касаться двух клавиш с небольшими выпуклостями в "
+-"центре клавиатуры."
++msgid "The index-finger tips rest over each of the two keys which have a small raised mark, in the center of the keyboard."
++msgstr "Указательные пальцы должны касаться двух клавиш с небольшими выпуклостями в центре клавиатуры."
+ 
+ #: ../src/keyboard.c:1058
+-msgid ""
+-"These marks function as 'tactile hooks' for your fingers to remain at the "
+-"correct position. This way, with a little experience, you will not need to "
+-"look at the keyboard to see if your fingers are properly positioned."
+-msgstr ""
+-"Эти выступы выполняют роль «тактильных якорей», чтобы пальцы оставались в "
+-"правильном положении. Таким образом, со временем вам не придется смотреть на "
+-"клавиатуру, чтобы проверить правильность расположения своих пальцев."
++msgid "These marks function as 'tactile hooks' for your fingers to remain at the correct position. This way, with a little experience, you will not need to look at the keyboard to see if your fingers are properly positioned."
++msgstr "Эти выступы выполняют роль «тактильных якорей», чтобы пальцы оставались в правильном положении. Таким образом, со временем вам не придется смотреть на клавиатуру, чтобы проверить правильность расположения своих пальцев."
+ 
+ #: ../src/keyboard.c:1062
+-msgid ""
+-"The tips of the other fingers lie naturally beside the index ones, over the "
+-"keys on the same row of the keyboard."
+-msgstr ""
+-"Кончики остальных пальцев должны свободно лежать на клавишах в одном ряду "
+-"слева и справа от клавиш с метками."
++msgid "The tips of the other fingers lie naturally beside the index ones, over the keys on the same row of the keyboard."
++msgstr "Кончики остальных пальцев должны свободно лежать на клавишах в одном ряду слева и справа от клавиш с метками."
+ 
+ #: ../src/keyboard.c:1065
+ msgid "The outside edges of your thumbs rest over the space bar."
+ msgstr "Большие пальцы обеих рук должны находиться над пробелом."
+ 
+ #: ../src/keyboard.c:1067
+-msgid ""
+-"The part of the hands closest to the wrist (the base) rest over the table, "
+-"outside the keyboard. Without this kind of support the arms would quickly "
+-"tire."
+-msgstr ""
+-"Часть руки ближе к кисти (запястье) должна находиться над столом за "
+-"пределами клавиатуры. Без такой поддержки руки будут быстро уставать."
++msgid "The part of the hands closest to the wrist (the base) rest over the table, outside the keyboard. Without this kind of support the arms would quickly tire."
++msgstr "Часть руки ближе к кисти (запястье) должна находиться над столом за пределами клавиатуры. Без такой поддержки руки будут быстро уставать."
+ 
+ #: ../src/keyboard.c:1070
+-msgid ""
+-"This is referred to as the home position for the hands. From it the fingers "
+-"move all over the keyboard, reaching all the keys as naturally and quickly "
+-"as possible. To reach this goal one uses a specific relation between each "
+-"key and finger. This relation will be learned gradually as you complete the "
+-"basic course."
+-msgstr ""
+-"Поставьте кисти рук в исходную позицию, как здесь показано. Из этого "
+-"положения пальцы могут легко и естественно достигать всех клавиш клавиатуры. "
+-"Для этого за каждым пальцем закрепляются свои клавиши. Вы будете изучать эту "
+-"связь постепенно по мере прохождения курса обучения."
++msgid "This is referred to as the home position for the hands. From it the fingers move all over the keyboard, reaching all the keys as naturally and quickly as possible. To reach this goal one uses a specific relation between each key and finger. This relation will be learned gradually as you complete the basic course."
++msgstr "Поставьте кисти рук в исходную позицию, как здесь показано. Из этого положения пальцы могут легко и естественно достигать всех клавиш клавиатуры. Для этого за каждым пальцем закрепляются свои клавиши. Вы будете изучать эту связь постепенно по мере прохождения курса обучения."
+ 
+ #: ../src/keyboard.c:1076
+-msgid ""
+-"When learning the relation between fingers and keys, it is very important "
+-"that you only move the finger which must press the key and allow all other "
+-"fingers to remain in the home position."
+-msgstr ""
+-"При изучении связи между пальцами и клавишами очень важно, чтобы для нажатия "
+-"клавиши перемещался только один палец, а остальные пальцы оставались в "
+-"исходном положении."
++msgid "When learning the relation between fingers and keys, it is very important that you only move the finger which must press the key and allow all other fingers to remain in the home position."
++msgstr "При изучении связи между пальцами и клавишами очень важно, чтобы для нажатия клавиши перемещался только один палец, а остальные пальцы оставались в исходном положении."
+ 
+ #: ../src/keyboard.c:1080
+-msgid ""
+-"After memorizing this relationship, you can relax the previous rule some, so "
+-"that you can attain greater speed while typing."
+-msgstr ""
+-"После запоминания этой связи можно немного отдохнуть от предыдущего правила, "
+-"чтобы можно было повысить скорость набора."
++msgid "After memorizing this relationship, you can relax the previous rule some, so that you can attain greater speed while typing."
++msgstr "После запоминания этой связи можно немного отдохнуть от предыдущего правила, чтобы можно было повысить скорость набора."
+ 
+ #: ../src/keyboard.c:1083
+-msgid ""
+-"You should be prepared to start training with the basic course. It will take "
+-"effort and patience to be successful as a typist. We trust you have these "
+-"and look forward to your success!"
+-msgstr ""
+-"Теперь вы готовы к изучению базового курса. Вам потребуется запастись "
+-"терпением и приложить немного усилий. Надеемся, что вы справитесь. Удачи!"
++msgid "You should be prepared to start training with the basic course. It will take effort and patience to be successful as a typist. We trust you have these and look forward to your success!"
++msgstr "Теперь вы готовы к изучению базового курса. Вам потребуется запастись терпением и приложить немного усилий. Надеемся, что вы справитесь. Удачи!"
+ 
+ #: ../src/keyboard.c:1094
+ #, c-format
+@@ -791,12 +646,12 @@
+ #. Recommendations
+ #: ../src/keyboard.c:1098
+ msgid "To position the hands"
+-msgstr "Проложение рук"
++msgstr "Положение рук"
+ 
+ #. Final words
+ #: ../src/keyboard.c:1183
+ msgid "Go ahead!"
+-msgstr "Переходите к следующему упражнению"
++msgstr "Идем дальше!"
+ 
+ #: ../src/keyboard.c:1192
+ msgid "Relation between fingers and keys"
+@@ -806,7 +661,8 @@
+ msgid "Click on any key to see which finger you must use:"
+ msgstr "Нажмите любую клавишу, чтобы увидеть соответствующий ей палец:"
+ 
+-#: ../src/keyboard.c:1229 ../src/keyboard.c:1269
++#: ../src/keyboard.c:1229
++#: ../src/keyboard.c:1269
+ msgid "Keyboard"
+ msgstr "Клавиатура"
+ 
+@@ -814,19 +670,23 @@
+ msgid "Create or modify a custom keyboard layout"
+ msgstr "Создание или изменение собственной раскладки"
+ 
+-#: ../src/keyboard.c:1563 ../src/keyboard.c:1587
++#: ../src/keyboard.c:1563
++#: ../src/keyboard.c:1587
+ msgid "small finger"
+ msgstr "мизинец"
+ 
+-#: ../src/keyboard.c:1566 ../src/keyboard.c:1584
++#: ../src/keyboard.c:1566
++#: ../src/keyboard.c:1584
+ msgid "ring finger"
+ msgstr "безымянный палец"
+ 
+-#: ../src/keyboard.c:1569 ../src/keyboard.c:1581
++#: ../src/keyboard.c:1569
++#: ../src/keyboard.c:1581
+ msgid "middle finger"
+ msgstr "средний палец"
+ 
+-#: ../src/keyboard.c:1572 ../src/keyboard.c:1578
++#: ../src/keyboard.c:1572
++#: ../src/keyboard.c:1578
+ msgid "index finger"
+ msgstr "указательный палец"
+ 
+@@ -844,31 +704,27 @@
+ 
+ #: ../src/tutor.c:218
+ msgid "Klavaro - Basic Course"
+-msgstr "Klavaro: начальный курс"
++msgstr "Klavaro - Начальный курс"
+ 
+ #: ../src/tutor.c:223
+ msgid "Klavaro - Adaptability"
+-msgstr "Klavaro: адаптивность"
++msgstr "Klavaro - Адаптивность"
+ 
+ #: ../src/tutor.c:226
+-msgid ""
+-"Adaptability exercises: automating the fingers responses, typing over all "
+-"the keyboard."
+-msgstr ""
+-"Упражнения на адаптивность: автоматизация работы пальцев путём набора по "
+-"всей клавиатуре"
++msgid "Adaptability exercises: automating the fingers responses, typing over all the keyboard."
++msgstr "Упражнения на адаптивность: автоматизация работы пальцев путем набора по всей клавиатуре"
+ 
+ #: ../src/tutor.c:231
+ msgid "Klavaro - Velocity"
+-msgstr "Klavaro: скорость"
++msgstr "Klavaro - Скорость"
+ 
+ #: ../src/tutor.c:232
+ msgid "Velocity exercises: accelerate typing real words."
+-msgstr "Упраженения на скорость: повышение скорости набора реальных слов"
++msgstr "Упражнения на скорость: повышение скорости набора реальных слов"
+ 
+ #: ../src/tutor.c:236
+ msgid "Klavaro - Fluidness"
+-msgstr "Klavaro: плавность"
++msgstr "Klavaro - Плавность"
+ 
+ #: ../src/tutor.c:238
+ msgid "Fluidness exercises: accuracy typing good sense paragraphs."
+@@ -876,8 +732,7 @@
+ 
+ #: ../src/tutor.c:301
+ msgid "End of exercise. Press [Enter] to start another."
+-msgstr ""
+-"Конец упражнения. Нажмите клавишу ВВОД для перехода к следующему упражнению."
++msgstr "Конец упражнения. Нажмите клавишу ВВОД для перехода к следующему упражнению."
+ 
+ #: ../src/tutor.c:329
+ msgid "Learning the key positions."
+@@ -893,12 +748,8 @@
+ 
+ #: ../src/tutor.c:850
+ #, c-format
+-msgid ""
+-"ps.: logging not performed for this session: the number of typed characters "
+-"(%i) must be greater than %i."
+-msgstr ""
+-"Для этого урока статистика не записывается: количество набранных символов "
+-"(%i) должно быть больше %i."
++msgid "ps.: logging not performed for this session: the number of typed characters (%i) must be greater than %i."
++msgstr "Для этого урока статистика не записывается: количество набранных символов (%i) должно быть больше %i."
+ 
+ #: ../src/tutor.c:897
+ msgid "Default"
+@@ -909,13 +760,8 @@
+ msgstr "Вы попали в десятку лучших!"
+ 
+ #: ../src/tutor.c:978
+-msgid ""
+-"ps.: the text you just typed doesn't seem to be similar to ordinary texts in "
+-"the language currently selected: we can't account for it in the 'Top 10' "
+-"contest."
+-msgstr ""
+-"Набранный вами текст не был похож на обычный текст для выбранного языка: он "
+-"не подходит для участия в соревновании."
++msgid "ps.: the text you just typed doesn't seem to be similar to ordinary texts in the language currently selected: we can't account for it in the 'Top 10' contest."
++msgstr "Набранный вами текст не был похож на обычный текст для выбранного языка: он не подходит для участия в соревновании."
+ 
+ #. Begin the accuracy
+ #: ../src/tutor.c:1026
+@@ -930,15 +776,13 @@
+ msgid "minute and"
+ msgid_plural "minutes and"
+ msgstr[0] "минута и"
+-msgstr[1] "минуты и"
+-msgstr[2] "минут и"
++msgstr[1] "минут и"
+ 
+ #: ../src/tutor.c:1029
+ msgid "second"
+ msgid_plural "seconds"
+ msgstr[0] "секунда"
+-msgstr[1] "секунды"
+-msgstr[2] "секунд"
++msgstr[1] "секунд"
+ 
+ #: ../src/tutor.c:1030
+ msgid "Error ratio:"
+@@ -948,7 +792,9 @@
+ msgid "Accuracy:"
+ msgstr "Точность:"
+ 
+-#: ../src/tutor.c:1051 ../src/tutor.c:1076 ../src/tutor.c:1099
++#: ../src/tutor.c:1051
++#: ../src/tutor.c:1076
++#: ../src/tutor.c:1099
+ #: ../src/tutor.c:1125
+ msgid "Goal:"
+ msgstr "Цель:"
+@@ -975,31 +821,31 @@
+ 
+ #: ../src/tutor.c:1559
+ msgid "space"
+-msgstr ""
++msgstr "пробел"
+ 
+ #. Translators: the name of letter Y
+ #: ../src/tutor.c:1564
+ msgid "wye"
+-msgstr ""
++msgstr "звездочка"
+ 
+ #. Translators: the name of the Return key
+ #: ../src/tutor.c:1568
+ msgid "enter"
+-msgstr ""
++msgstr "ввод"
+ 
+ #: ../src/tutor.c:1574
+ msgid "apostrophe"
+-msgstr ""
++msgstr "апостроф"
+ 
+ #. Translators: double quote symbol: "
+ #: ../src/tutor.c:1578
+ msgid "quote"
+-msgstr ""
++msgstr "кавычки"
+ 
+ #. Translators: ampersand symbol: &
+ #: ../src/tutor.c:1582
+ msgid "ampersand"
+-msgstr ""
++msgstr "амперсанд"
+ 
+ #: ../src/basic.c:329
+ msgid "Positions of keys seems to be learned!"
+@@ -1015,7 +861,7 @@
+ " Поздравляем!\n"
+ " Вы прошли начальный курс.\n"
+ " Переходите к следующему упражнению — на адаптивность.\n"
+-" В нём вы научитесь набирать более точно.\n"
++" В нем вы научитесь набирать более точно.\n"
+ 
+ #: ../src/basic.c:336
+ msgid ""
+@@ -1038,19 +884,17 @@
+ " You are doing well. But...\n"
+ " Could you make the accuracy reach 95%?\n"
+ msgstr ""
+-" Вы всё делаете хорошо. Но...\n"
++" Вы все делаете хорошо. Но...\n"
+ " Попробуете повысить точность до 95%?\n"
+ 
+ #: ../src/adaptability.c:222
+ #, c-format
+ msgid ""
+ " You are almost there, but your accuracy rate is still below %.0f%%.\n"
+-" Try a few more times, or maybe you're getting upset, so go to other kind of "
+-"exercise.\n"
++" Try a few more times, or maybe you're getting upset, so go to other kind of exercise.\n"
+ msgstr ""
+-" Вы почти справились, но ваша точность всё ещё ниже %.0f%%.\n"
+-" Попробуйте ещё раз или, если вы нервничаете, переходите к следующему "
+-"упражнению.\n"
++" Вы почти справились, но ваша точность все еще ниже %.0f%%.\n"
++" Попробуйте еще раз или, если вы нервничаете, переходите к следующему упражнению.\n"
+ 
+ #: ../src/adaptability.c:229
+ #, c-format
+@@ -1065,7 +909,8 @@
+ " Теперь пора повышать скорость набора.\n"
+ " Переходите к третьему упражнению в главном меню\n"
+ 
+-#: ../src/velocity.c:309 ../src/fluidness.c:411
++#: ../src/velocity.c:309
++#: ../src/fluidness.c:411
+ msgid "Pasted_or_dropped"
+ msgstr "Вставленный или перетащенный"
+ 
+@@ -1076,9 +921,8 @@
+ " persistence and practice will improve your velocity.\n"
+ msgstr ""
+ " Вы пока что новичок.\n"
+-" Запаситесь терпением, повторяйте упражнение каждый день, отдыхайте и не "
+-"волнуйтесь:\n"
+-" терпение и труд всё перетрут.\n"
++" Запаситесь терпением, повторяйте упражнение каждый день, отдыхайте и не волнуйтесь:\n"
++" терпение и труд все перетрут.\n"
+ 
+ #: ../src/velocity.c:432
+ msgid ""
+@@ -1093,7 +937,7 @@
+ " You are doing well, but need to go faster.\n"
+ " And don't forget the accuracy. Try to get 30 WPM.\n"
+ msgstr ""
+-" Вы всё делаете хорошо, но надо бы чуть быстрее.\n"
++" Вы все делаете хорошо, но надо бы чуть быстрее.\n"
+ " Однако не забывайте о точности.\n"
+ " Попробуйте достичь скорости в 30 слов в минуту.\n"
+ 
+@@ -1103,7 +947,7 @@
+ " Can you reach 40 WPM?\n"
+ msgstr ""
+ " Прекрасно. Наконец-то вы зашевелились.\n"
+-" Как насчёт 40 слов в минуту?\n"
++" Как насчет 40 слов в минуту?\n"
+ 
+ #: ../src/velocity.c:442
+ #, c-format
+@@ -1112,7 +956,7 @@
+ " Can you finally reach %.0f WPM?\n"
+ msgstr ""
+ " Очень хорошо. Вы почти у цели.\n"
+-" Может всё-таки поднапряжётесь и достигнете %.0f слов в минуту?\n"
++" Может все-таки поднапряжетесь и достигнете %.0f слов в минуту?\n"
+ 
+ #: ../src/velocity.c:447
+ msgid ""
+@@ -1178,7 +1022,7 @@
+ " You are almost getting there. Type more fluently.\n"
+ " I want a fluidness greater than %.0f%%.\n"
+ msgstr ""
+-" Вы почти достигли цели. Печатайте ещё плавнее. \n"
++" Вы почти достигли цели. Печатайте еще плавнее. \n"
+ " Ваша цель — повысить плавность выше %.0f%%.\n"
+ 
+ #: ../src/fluidness.c:530
+@@ -1200,7 +1044,7 @@
+ " Are you a machine? Could you teach me?\n"
+ " I can not help you anymore. Go to an expert!\n"
+ msgstr ""
+-" Как вам удаётся так быстро печатать?\n"
++" Как вам удается так быстро печатать?\n"
+ " Это за пределами человеческих возможностей.\n"
+ " Может вы не человек, а программа?\n"
+ " Ваше обучение закончено. Можете удалить эту программу\n"
+@@ -1218,50 +1062,46 @@
+ msgstr "Когда"
+ 
+ #: ../src/top10.c:124
+-#, fuzzy
+ msgid "Local scores"
+-msgstr ""
+-"Локальные очки\n"
+-"Внешние очки"
++msgstr "Локальные очки"
+ 
+ #: ../src/top10.c:125
+-#, fuzzy
+ msgid "External scores"
+-msgstr ""
+-"Локальные очки\n"
+-"Внешние очки"
++msgstr "Внешние очки"
+ 
+ #: ../src/top10.c:725
+ msgid "Empty ranking. Please practice fluidness."
+-msgstr "Пустой рейтинг. Попрактикуйтесь в плавности"
++msgstr "Пустой рейтинг. Попрактикуйтесь в плавности."
+ 
+ #: ../src/top10.c:824
+ msgid "Not able to download files"
+ msgstr "Не удается загрузить файлы"
+ 
+-#: ../src/top10.c:824 ../src/top10.c:914
++#: ../src/top10.c:824
++#: ../src/top10.c:914
+ msgid "not found"
+ msgstr "не найдено"
+ 
+-#: ../src/top10.c:825 ../src/top10.c:915
++#: ../src/top10.c:825
++#: ../src/top10.c:915
+ msgid "Are you sure you have it installed in your system?"
+ msgstr "Вы уверены, что он установлен в системе?"
+ 
+ #: ../src/top10.c:867
+ msgid "Could not download file from the host server."
+-msgstr "Не удаётся загрузить файл с локального сервера"
++msgstr "Не удается загрузить файл с локального сервера"
+ 
+ #: ../src/top10.c:914
+ msgid "Not able to upload files"
+-msgstr "Не удаётся отправить файлы"
++msgstr "Не удается отправить файлы"
+ 
+ #: ../src/top10.c:995
+ msgid "Could not upload/download scores."
+-msgstr "Не удаётся отправить/загрузить очки"
++msgstr "Не удается отправить/загрузить очки"
+ 
+ #, fuzzy
+ #~ msgid "A flexible touch typing tutor"
+-#~ msgstr "Ещё один клавиатурный тренажёр"
++#~ msgstr "Еще один клавиатурный тренажер"
+ 
+ #~ msgid ""
+ #~ "1\n"
+--- data/ru.paragraphs.old	2010-07-02 17:56:51.000000000 +0400
++++ data/ru.paragraphs	2011-05-20 21:53:25.353868489 +0400
+@@ -2,11 +2,9 @@
+ 
+ в Школе 6 г.Новороссийска учиться Замученный перемученый ученик! инкриминировать инкроминацию, кролик съел очень большой кочан капусты. Краснознамённый красноречивый красногвардеец ехал по краснолесью и красногорью на своём красном перекрашеном от красоты или   красноты красочно красивом крашеном коне. Ленин ехал по ленинскому проспекту на ленинской машине вместе с Леной.
+ 
+-Я был у евреев в еврейском городе и гулял по еврейским улицам в еврейской одежде, покупал еврейскую еду, разговаривал с евреями и вообще я ЕВРЕЙ!!! Ты когда-нибудь видел меридиональный мередиан на мередиальновысокоразвитоимпульсивном уровне? Металлорежущий металлургический металлург проходил курсы по резанию металла на уроке металлургии. 
+-
+ Механизировать метрополитен, метеоритная метеорология. недобросовестный, недогадливый и недоверчивый мальчик пошёл гулять неглядя по недоделаной улице и вдруг произошло недосягаемое недаразумение и недоросль недосмотрел до недотроги и недоучки и из-за этого произошёл недюжинный нежданный недочёт! Всё Пока!
+ 
+-1945 проверка. начинаем зарядку и пишем предложения: С горы откарывается чудесный вид. На бывшей окраине нашего города открыт новый спортивный комплекс, в центре его построено высокое куполообразное здание из стекла и битона. Разминка закончена на 5, и скоро ты будешь писать 300-400 знаков в минуту без ошибок! :) А теперь как говорится к делу:) Независимые люди, покорить Эверест, неизъяснимое предложение. Я предпочитаю читать Пушкина, но не люблю читать Гоголя-моголя. по-моему, по-твоему, по-нашему, по-понятиям.
++1945 проверка. начинаем зарядку и пишем предложения: С горы откарывается чудесный вид. На бывшей окраине нашего города открыт новый спортивный комплекс, в центре его построено высокое куполообразное здание из стекла и бетона. Разминка закончена на 5, и скоро ты будешь писать 300-400 знаков в минуту без ошибок! :) А теперь как говорится к делу:) Независимые люди, покорить Эверест, неизъяснимое предложение. Я предпочитаю читать Пушкина, но не люблю читать Гоголя-моголя. по-моему, по-твоему, по-нашему, по-понятиям.
+ 
+ Когда Крамской увидел присланную в Петербург картину "Мокрый луг", он был потрясён и сказал: "ничего себе". Какая у тебя мечта? Писать 400 знаков в секунду без ошибок! играть в пинг-понг пинг-понговым мячиком. Рабоче-крестьянская работоспособность, раздвоение личности!идти наповал, одевать на руку перстень. Властелин колец. Нализо конфидециальный документ.
+ 
+@@ -16,3 +14,6 @@
+ 
+ Неизгладимое впечатление, получить семизначную асю; наименование товара. Он в полном одиночестве бродил по городу в поисках райского наслаждения (типа баунти), маневрировать, манёвр, манеж, быть человеком! Вы закончили обучение ! Клаваро и Мандрива рулят!
+ 
++Часовщик Тони Эйчил, проживающий в городе Киддерминстер, в свободное от работы время частенько проводил  за чашкой чая. Однажды он, взяв из вазы лимон, ввел в него два электрода: цинковый и медный. Концы электродов Эйчил подсоединил к миниатюрному моторчику электрочасов. Результат, казалось бы, бессмысленного эксперимента поразил окружающих: на одном лимоне часы работали безостановочно в течение пяти месяцев. Изобретательный часовщик решил после этого подключить телевизор к приобретенному по этому случаю ревеню, корни и стебли которого содержат много кислоты. Что из этого получилось, к сожалению, не известно.
++
++АЛФАВИТ (от названий греческих букв «альфа» и «бета» («вита»). Древнейший тип алфавита – финикийский, давший начало всем алфавитным системам письма. В основе европейского алфавита лежит греческий алфавит, непосредственно восходящий к финикийскому. Русский алфавит – результат упрощения древнеславянского алфавита – кириллицы, возникшего на основе византийского греческого письма. После ряда реформ русского алфавита, начатых Петром 1, из него были исключены буквы, употребление которых не оправдывалось звуковой системой языка и введены новые: э, я, й, е. Нынешней русский алфавит (33 буквы) в своем составе и в названиях букв утвержден реформой правописания 1917-1918 годов.
