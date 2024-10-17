@@ -6,7 +6,7 @@ License:	GPLv2+
 Group:		Education
 Source0:	http://downloads.sourceforge.net/project/klavaro/%name-%version.tar.bz2
 Patch0:		klavaro-1.9.1-ru.patch
-URL:		http://klavaro.sourceforge.net
+URL:		https://klavaro.sourceforge.net
 Suggests:	wget
 BuildRequires:	pkgconfig(gtk+-2.0)
 BuildRequires:	gtkdatabox-devel
